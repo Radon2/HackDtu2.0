@@ -167,13 +167,21 @@ $data = get_csv_content('https://docs.google.com/spreadsheets/d/e/2PACX-1vTSW_DR
             for(i =1;i<40;i++){
             if(dname==ar[i][0])
                 {
-                    document.getElementById('para').innerHTML = "<b>" + "District : " + "</b>"     + ar[i][1] + "<br>" + "<b>" + "Block:" + "</b>"+ ar[i][2]  + "<br>" + "<b>" + "Address : " + "</b>" + ar[i][3]
-                                                                    + "<br>" + "<b>" + "Map Link : " + "</b>" +"<a href='"+ ar[i][4] + "' target='_blank'>" +  "CLICK HERE" + "</a>"
-                                                                    + "<br>" + "<b>" + "Contact Person : " + "</b>" + ar[i][5]
-                                                                    + "<br>" + "<b>" + "Phone Number : " + "</b>" + ar[i][6]
-                                                                    + "<br>" + "<b>" + "Date of Operation : " + "</b>" + ar[i][7]
-                                                                    + "<br>" + "<b>" + "No. of Beds in facility : "+ "</b>" + ar[i][8]
-                                                                    + "<br>" + "<b>" + "Download Data : " + "</b>" +"<a href='https://docs.google.com/spreadsheets/d/1GFG-phtItT3V3JGGqyZgpN6aViDkY-rg3HUTBeOjD3Q/pub?output=csv' target='_blank'>" +  "CLICK HERE" + "</a>";
+                    document.getElementById('para').innerHTML = "<b>" + "District : " + "</b>" + ar[i][0]
+																																		+ "<br>" + "<b>" + "Name : " + "</b>" + ar[i][1]
+																																		+ "<br>" + "<b>" + "Address : " + "</b>" + ar[i][2]
+                                                                    + "<br>" + "<b>" + "Map Link : " + "</b>" +"<a href='"+ ar[i][3] + "' target='_blank'>" +  "CLICK HERE" + "</a>"
+                                                                    + "<br>" + "<b>" + "total no. of beds : " + "</b>" + ar[i][4]
+                                                                    + "<br>" + "<b>" + "beds available : " + "</b>" + ar[i][5]
+                                                                    + "<br>" + "<b>" + "Vitamin A : " + "</b>" + ar[i][6]
+																																		+ "<br>" + "<b>" + "Vitamin B : " + "</b>" + ar[i][7]
+																																		+ "<br>" + "<b>" + "Vitamin C : " + "</b>" + ar[i][8]
+																																		+ "<br>" + "<b>" + "Vitamin D : " + "</b>" + ar[i][9]
+																																		+ "<br>" + "<b>" + "Vitamin E : " + "</b>" + ar[i][10]
+																																		+ "<br>" + "<b>" + "IRON : " + "</b>" + ar[i][11];
+																																		
+
+
             }
 
         }
