@@ -79,6 +79,10 @@ $data = get_csv_content('https://docs.google.com/spreadsheets/d/e/2PACX-1vTSW_DR
 
     <div class="container">
         <div class="row row-content">
+					<form action="p1.php" method="POST">
+						<input type="name" name="id"/>
+						<input type="submit" />
+					</form>
             <div class="col-sm-12 col-lg-6">
                 <img src="img/delhi-district-map.jpg" usemap="#image-map">
 
@@ -179,7 +183,7 @@ $data = get_csv_content('https://docs.google.com/spreadsheets/d/e/2PACX-1vTSW_DR
 																																		+ "<br>" + "<b>" + "Vitamin D : " + "</b>" + ar[i][9]
 																																		+ "<br>" + "<b>" + "Vitamin E : " + "</b>" + ar[i][10]
 																																		+ "<br>" + "<b>" + "IRON : " + "</b>" + ar[i][11];
-																																		
+
 
 
             }
