@@ -45,7 +45,7 @@ $data = get_csv_content('https://docs.google.com/spreadsheets/d/e/2PACX-1vTSW_DR
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="" height=30 width=41></a>
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg" height=30 width=41></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -56,35 +56,20 @@ $data = get_csv_content('https://docs.google.com/spreadsheets/d/e/2PACX-1vTSW_DR
             </div>
         </div>
     </nav>
-    <header class="jumbotron">
-
-        <!-- Main component for a primary marketing message or call to action -->
-
-        <div class="container">
-            <div class="row row-header">
-                <div class="col-xs-12 col-sm-8">
-                    <h1>Natkhat</h1>
-                    <p style="padding:40px;"></p>
-                    <p></p>
-                </div>
-                <div class="col-xs-12 col-sm-2">
-                    <p style="padding: 20px;"></p>
-                    <img src="" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-2">
-                </div>
-            </div>
-        </div>
-    </header>
 
     <div class="container">
         <div class="row row-content">
-					<form action="p1.php" method="POST">
-						<input type="name" name="id"/>
-						<input type="submit" />
+					<form action="p1.php" method="POST" class="form-group" >
+                        <div class="col-xs-8">
+                            <input type="name" name="id" class="form-control"/>
+                        </div>
+						<div class="col-sm-4">
+                            <input type="submit" class="btn btn-block" />
+                        </div>
+						
 					</form>
-            <div class="col-sm-12 col-lg-6">
-                <img src="img/delhi-district-map.jpg" usemap="#image-map">
+            <div class="col-sm-12 col-lg-6" style="margin =10px;" >
+                <img src="img/delhi-district-map.jpg"  usemap="#image-map">
 
                 <map name="image-map">
                     <area onclick="fx('South Delhi')" alt="South Delhi" title="South Delhi" coords="251,340,257,333,253,327,245,321,253,315,262,312,269,307,270,299,275,294,282,286,289,284,294,290,301,295,305,305,310,310,315,322,315,329,314,344,309,350,307,360,316,372,317,389,302,395,285,400,270,402,263,390,250,381,241,377,233,367,228,358,227,350,235,344,246,347" shape="poly">
