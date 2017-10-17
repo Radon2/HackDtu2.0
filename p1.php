@@ -12,7 +12,35 @@ if (!$conn) {
 }
 $nut = $_POST['id'];
 
-$sql = "INSERT INTO vit VALUES (1,1,1,1,1,1)";
+if($nut == 'A')
+{
+  $sql = "";//query to increment A by 1
+}
+
+if($nut == 'B')
+{
+  $sql = "";//query to increment B by 1
+}
+
+if($nut == 'C')
+{
+  $sql = "";//query to increment C by 1
+}
+
+if($nut == 'D')
+{
+  $sql = "";//query to increment D by 1
+}
+
+if($nut == 'E')
+{
+  $sql = "";//query to increment E by 1
+}
+
+if($nut == 'IRON')
+{
+  $sql = "";//query to increment IRON by 1
+}
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
