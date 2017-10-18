@@ -14,32 +14,32 @@ $nut = $_POST['id'];
 
 if($nut == 'A')
 {
-  $sql = "";//query to increment A by 1
+  $sql = "UPDATE vit SET A = A + 1;";//query to increment A by 1
 }
 
 if($nut == 'B')
 {
-  $sql = "";//query to increment B by 1
+  $sql = "UPDATE vit SET B = B + 1;";//query to increment B by 1
 }
 
 if($nut == 'C')
 {
-  $sql = "";//query to increment C by 1
+  $sql = "UPDATE vit SET C = C + 1;";//query to increment C by 1
 }
 
 if($nut == 'D')
 {
-  $sql = "";//query to increment D by 1
+  $sql = "UPDATE vit SET D = D + 1;";//query to increment D by 1
 }
 
 if($nut == 'E')
 {
-  $sql = "";//query to increment E by 1
+  $sql = "UPDATE vit SET E = E + 1;";//query to increment E by 1
 }
 
 if($nut == 'IRON')
 {
-  $sql = "";//query to increment IRON by 1
+  $sql = "UPDATE vit SET IRON = IRON + 1;";//query to increment IRON by 1
 }
 
 if (mysqli_query($conn, $sql)) {
